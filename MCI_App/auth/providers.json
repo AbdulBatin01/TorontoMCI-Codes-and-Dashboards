@@ -8,5 +8,31 @@
         "name": "api-key",
         "type": "api-key",
         "disabled": true
+    },
+    "local-userpass": {
+        "name": "local-userpass",
+        "type": "local-userpass",
+        "config": {
+            "autoConfirm": false,
+            "confirmEmailSubject": "Confirm your Email address",
+            "emailConfirmationUrl": "https://www.mciapp.com/confirmemail",
+            "resetPasswordSubject": "Here's a link to reset your password",
+            "resetPasswordUrl": "https://www.mciapp.com/resetpassword",
+            "runConfirmationFunction": false,
+            "runResetFunction": false
+        },
+        "disabled": false
+    },
+    "oauth2-google": {
+        "name": "oauth2-google",
+        "type": "oauth2-google",
+        "config": {
+            "clientId": "Cli 1",
+            "openId": true
+        },
+        "secret_config": {
+            "clientSecret": "Abdul-Batin"
+        },
+        "disabled": false
     }
 }
